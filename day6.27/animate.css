@@ -1,0 +1,44 @@
+body {
+  background: #135569; }
+
+ul {
+  display: inline-block;
+  width: 6rem; }
+
+li {
+  background: #dedfee;
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  margin: 2rem 0 2rem 2rem;
+  border-radius: 1rem; }
+  .css.activated li {
+    background: #d05f5e;
+    animation: translation 3s 0s infinite linear; }
+
+@keyframes translation {
+  0% {
+    transform: rotate(0deg); }
+  8% {
+    transform: rotate(-12deg); }
+  30% {
+    transform: rotate(270deg); }
+  55% {
+    transform: rotate(-40deg); }
+  80% {
+    transform: rotate(70deg); }
+  92% {
+    transform: rotate(-13deg); }
+  100% {
+    transform: rotate(0deg); } }
+a {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  left: 0;
+  right: 0;
+  color: #fafbff;
+  background: #fafbff20;
+  font-family: system-ui, sans-serif; }
+
+/*# sourceMappingURL=animate.css.map */
