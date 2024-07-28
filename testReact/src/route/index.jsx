@@ -3,6 +3,7 @@ import {
 } from "react-router-dom";
 import App from '../App';
 import UseEffectDemo from '../pages/useEffect'
+import List from '../pages/list'
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: '/effect',
     element: <UseEffectDemo />,
+  },
+  {
+    path: '/list',
+    element: <List />,
   }
 ]);
 
